@@ -1,1 +1,1 @@
-# landing-page
+Creates a web page from a design provided by the odin project.

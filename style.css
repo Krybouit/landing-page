@@ -1,0 +1,29 @@
+body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1f2937;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.start {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}

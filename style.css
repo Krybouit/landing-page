@@ -76,7 +76,6 @@ h1 {
 
 .middle {
     background-color: white;
-    padding-bottom: 400px;
     margin-top: 200px;
 }
 
@@ -89,19 +88,61 @@ h1 {
     justify-content: center;
 }
 
-.picture-one {
+.picture-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 180px;
+}
+
+.pictures {
     width: 180px;
-    height: auto;
+    height: 180px;
     border: 5px solid #3882f6;
     border-radius: 25px;
 }
 
-.picture-two {
-    width: 180px;
-    height: auto;
-    border: 5px solid #3882f6;
-    border-radius: 25px;
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 130px;
+    justify-content: center;
 }
+
+.text {
+    margin: 0%;
+    font-size: 18px;
+    color:#1f2937;
+    padding-top: 10px;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic; 
+    background-color: #e5e7eb;
+    width: 1905px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+
+
+.quote-name {
+    font-size: 24px;
+    font-weight: bolder;
+    width: 800px;
+    text-align: end;
+}
+
+
+
+
+
 
 
 
